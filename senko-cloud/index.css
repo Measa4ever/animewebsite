@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://1.bp.blogspot.com/-ytjMGtoyVnc/XYdpPLlerCI/AAAAAAAABY8/xs8b0iDBAtUufu4EhQm4L58Io2sUxiHLgCLcBGAsYHQ/w680/externalFile.gif');
+  }
+  
+  .bgimg {
+    height: 100%;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  .middle {
+    position: absolute;
+    font-size:50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
